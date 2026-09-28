@@ -1,0 +1,33 @@
+=DATE(2026,1,26)
+  o/p:  26-Jan-2026
+
+
+  =TODAY() 
+    o/p: 28-Sep-2026
+  =NOW()
+    o/p: 28-Sep-2026 16:55
+
+
+  =YEAR(B2)
+  =MONTH(B2) 
+  =DAY(B2)
+
+ =EDATE(B2,24) 
+
+   =EOMONTH(B2,6) 
+
+
+  =DATEDIF(C2,TODAY(),"Y")&" years, "&DATEDIF(C2,TODAY(),"YM")&"
+months, "&DATEDIF(C2,TODAY(),"MD")&" days"
+
+
+  =DATEDIF(B2,TODAY(),"Y")
+
+
+  =NETWORKDAYS("01-Apr-2026","30-Apr-2026")
+
+
+  =NETWORKDAYS("01-Apr-2026","30-Apr-2026",L1:L2)
+
+  =EOMONTH(TODAY(),2)+1
+  
